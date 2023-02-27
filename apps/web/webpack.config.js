@@ -10,10 +10,6 @@ const {presets} = require('./babel.config.js');
 
 const compileNodeModules = [
   // Add every react-native package that needs compiling
-  'react-native-linear-gradient',
-  'react-native-gesture-handler',
-  'babel-polyfill',
-  'react-native-reanimated',
 ].map(moduleName =>
   path.resolve(appDirectory, `../node_modules/${moduleName}`),
 );
@@ -73,7 +69,7 @@ module.exports = {
   output: {
     path: path.resolve(appDirectory, 'build'),
     publicPath: '/',
-    filename: 'rnw_blogpost.bundle.js',
+    filename: 'web.bundle.js',
   },
   resolve: {
     extensions: ['.web.tsx', '.web.ts', '.tsx', '.ts', '.web.js', '.js'],

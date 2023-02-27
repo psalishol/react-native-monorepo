@@ -1,5 +1,5 @@
 {
-  "name": "macos",
+  "name": "@rn-monorepo/macos",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "react": "18.1.0",
+    "react": "17.0.1",
     "react-native": "0.64.0",
     "react-native-macos": "^0.64.0-0"
   },

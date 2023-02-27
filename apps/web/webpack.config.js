@@ -68,7 +68,7 @@ const imageLoaderConfiguration = {
 
 module.exports = {
   entry: {
-    app: path.join(__dirname, 'index.web.js'),
+    app: path.join(__dirname, 'index.js'),
   },
   output: {
     path: path.resolve(appDirectory, 'build'),
